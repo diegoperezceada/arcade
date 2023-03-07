@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    margin: 0; 
+    padding: 0;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+
+
+}
+.header{
+    height: 15ex;
+    text-align: center;
+}
+
+.logo{
+   margin-top: 5%;
+}
+
+.div_screen{
+    text-align: center;
+    margin-top: -200;
+}
+.screen{
+    width: 50em;
+    height: 500px;
+}
+
+.press_start{
+    margin-top: -350px;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    z-index: 10;
+}
+
+.press_start h1 {
+    background-image: linear-gradient(rgb(241, 0, 0, 1),rgb(218, 222, 1, 1));
+    background-clip: text;
+    font-family: 'Press Start 2P', cursive;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.text_screen{
+    margin-top: 50px;
+
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    z-index: 10;
+}
+
+.text_screen h1{
+    background-image: linear-gradient(rgb(241, 0, 0, 1),rgb(218, 222, 1, 1));
+    background-clip: text;
+    font-family: 'Press Start 2P', cursive;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent; 
+    font-size: 30px;
+
+}
